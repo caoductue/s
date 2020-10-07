@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qlsachpn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListView.List_Hoadonchitiet"></activity>
+        <activity android:name=".ListView.List_Dangky" />
+        <activity android:name=".ListView.List_HoaDon" />
+        <activity android:name=".ListView.List_Book" />
+        <activity android:name=".ListView.List_User" />
+        <activity android:name=".LOGIN.DangKyActivity" />
+        <activity android:name=".THELOAI.XoaTL_Activity" />
+        <activity android:name=".THELOAI.SuaTL_Activity" />
+        <activity android:name=".THELOAI.ThemTL_Activity" />
+        <activity android:name=".SACHBANCHAY.SachBanChay_Activity" />
+        <activity android:name=".QUANLYSACH.XoaSach_Activity" />
+        <activity android:name=".QUANLYSACH.SuaSach_Activity" />
+        <activity android:name=".QUANLYSACH.ThemSach_Activity" />
+        <activity android:name=".QUANLYHOADON.XoaHD_Activity" />
+        <activity android:name=".QUANLYHOADON.SuaHD_Activity" />
+        <activity android:name=".QUANLYHOADON.ThemHD_Activity" />
+        <activity android:name=".NGUOIDUNG.ThemNguoiDung_Activity" />
+        <activity android:name=".LOGIN.DoiMK_Activity" />
+        <activity android:name=".LOGIN.Home_Activity" />
+        <activity android:name=".LOGIN.DangNhap_Activity" />
+        <activity android:name=".LOGIN.Main_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
